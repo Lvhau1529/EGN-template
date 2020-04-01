@@ -94,7 +94,7 @@ h2 {
 
 /*End navigation*/
 
-.section-container {
+.container-section {
     display: grid;
     grid-template-columns: 755.62px 413.38px;
     grid-template-rows: 990px;
@@ -104,24 +104,24 @@ h2 {
 
 /*Left-container*/
 
-.left-container {
+.container-section-left {
     background-image: url(images/image1.png);
     background-repeat: no-repeat;
     background-position: center center;
     width: 715.63px;
 }
 
-.left-container .content {
+.container-section-left .content {
     width: 515.625px;
     height: 230px;
     padding: 700px 100px 0 100px;
 }
 
-.left-container .content .text01 {
+.container-section-left .content .text01 {
     margin: 0 0 20px;
 }
 
-.left-container .content .text02 {
+.container-section-left .content .text02 {
     width: 515.63px;
     height: 75px;
     margin: 0 0 20px;
@@ -129,7 +129,7 @@ h2 {
 
 /*Right-container*/
 
-.right-container {
+.container-section-right {
     display: grid;
     grid-template-rows: 455px 455px;
     row-gap: 40px;
@@ -137,7 +137,7 @@ h2 {
     align-content: center;
 }
 
-.right-container .bussiness {
+.container-section-right .bussiness {
     background-image: url(images/image2.png);
     background-repeat: no-repeat;
 }
@@ -161,7 +161,7 @@ h2 {
     font-size: 14px;
 }
 
-.right-container .network {
+.container-section-right .network {
     background-image: url(images/image3.png);
     background-repeat: no-repeat;
     background-position: center center;
