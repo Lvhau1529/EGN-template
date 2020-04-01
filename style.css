@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button {
+    width: 142px;
+    height: 45px;
+    background-color: #184470;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 17px 45px 16px;
+    margin: 20px 0 0 0;
+    border-radius: 24px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+}
+
+#button:hover {
+    background-color: #00B3EA;
+}
+
+h1 {
+    font-size: 4.375rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 26px;
+    color: #083441;
+    text-align: center;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: none;
+    
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 auto;
+    margin: 80px 0;
+}
+
+.logo {
+    background-image: url(images/EGN_slogan_small.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 55px;
+    overflow: hidden;
+    text-indent: 450px;
+    transition: all .3s ease;
+    width: 50%;
+    flex-grow: 6;
+    margin-left: 80px;
+}
+
+/*End logo*/
+
+.navigation {
+    align-self: flex-end;
+    flex-grow: 1;
+    margin-right: 37px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation ul a:nth-child(1) {
+    margin: 0 0 0 10px;
+}
+
+.navigation ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*End navigation*/
+
+.section-container {
+    display: grid;
+    grid-template-columns: 755.62px 413.38px;
+    grid-template-rows: 990px;
+    color: #fff;
+    margin-left: 80px;
+}
+
+/*Left-container*/
+
+.left-container {
+    background-image: url(images/image1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 715.63px;
+}
+
+.left-container .content {
+    width: 515.625px;
+    height: 230px;
+    padding: 700px 100px 0 100px;
+}
+
+.left-container .content .text01 {
+    margin: 0 0 20px;
+}
+
+.left-container .content .text02 {
+    width: 515.63px;
+    height: 75px;
+    margin: 0 0 20px;
+}
+
+/*Right-container*/
+
+.right-container {
+    display: grid;
+    grid-template-rows: 455px 455px;
+    row-gap: 40px;
+    column-gap: 40px;
+    align-content: center;
+}
+
+.right-container .bussiness {
+    background-image: url(images/image2.png);
+    background-repeat: no-repeat;
+}
+
+.bussiness .content {
+    width: 313.375px;
+    height: 171px;
+    padding: 180px 50px 0 50px;
+}
+
+.network .content .text02 {
+    width: 313.38px;
+    height: 60px;
+    margin: 0 0 30px;
+    font-size: 14px;
+}
+
+.bussiness .content .text02 {
+    width: 313.38px;
+    margin: 0 0 30px;
+    font-size: 14px;
+}
+
+.right-container .network {
+    background-image: url(images/image3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.network .gradient {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.network .content {
+    width: 313.375px;
+    height: 171px;
+    padding: 180px 50px 0 50px;
+}
+
+.network .content .text02 {
+    width: 313.38px;
+    height: 60px;
+    margin: 0 0 30px;
+    font-size: 14px;
+}
+
+/*End section*/
+
+.signup-container {
+    margin-left: 80px;
+}
+
+.signup-title {
+    margin: 80px 0;
+}
+
+.signup-form {
+    display: grid;
+    grid-template-columns: 678.02px 490.97px;
+    grid-template-rows: 515px;
+}
+
+.signup-form-img {
+    background-image: url(images/image4.png);
+}
+
+.signup-form-block {
+    background-color: #184470;
+    padding: 90px 96px 0 96px;
+}
+
+.signup-form_title {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.form-element input{
+    height: 50px;
+    width: 298.97px;
+    padding: 8px 21px;
+    margin-bottom: 16px;
+    background-color: #f4f4f4;
+    border: 0;
+}
+
+.signup-form_button button {
+    background-color: #ffffff;
+    color: #184470;
+    border-radius: 24px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1;
+    min-width: 142px;
+    padding: 17px 45px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+.signup-form_button button:hover {
+    background-color: #DDDDDD;
+}
+
+/*End Sign up*/
+
+.container-section-2 {
+    height: 720px;
+    width: 1169px;
+    background-color: #F8F8F8;
+    margin: 100px 0 0 80px;
+}
+
+.container-section-text {
+    padding: 250px 149.5px;
+}
+
+.container-section-text_title h3 {
+    margin-bottom: 48px !important;
+}
+
+.container-section-text_content {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #083441;
+}
+
+.container-section-text_button {
+    display: flex;
+    justify-content: center;
+}
+
+/*End-section-2*/
+
+.introduce-card {
+    display: grid;
+    grid-template-columns: 362.98px 362.98px 362.98px;
+    grid-template-rows: 519.47px;
+    column-gap: 40px;
+    margin-left: 80px;
+    padding-top: 77px;
+}
+
+.introduce-card p {
+    font-size: 16px;
+    line-height: 1.56;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.introduce-card h3 {
+    letter-spacing: 1px;
+    margin-bottom: 60px !important;
+    text-transform: none;
+    line-height: 1;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
+
+.introduce-card1_img {
+    background-image: url(images/image5.png);
+    width: 362.98px;
+    height: 261.47px;
+    margin-bottom: 33px;
+}
+
+.introduce-card2_img {
+    background-image: url(images/image6.png);
+    width: 362.98px;
+    height: 261.47px;
+    margin-bottom: 33px;
+}
+
+.introduce-card3_img {
+    background-image: url(images/image7.png);
+    width: 362.98px;
+    height: 261.47px;
+    margin-bottom: 33px;
+}
+
+/*End Introduce-card */
+
+.container-gradient {
+    background-image: url(images/image8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1169px;
+    height: 950px;
+    margin: 50px 0 0 80px;
+}
+
+.container-gradient-img {
+    background: rgba(0,0,0,0.2);
+    width: 100%;
+    height: 100%;
+}
+
+.container-gradient-content {
+    width: 640px;
+    height: 239px;
+    color: #ffffff;
+    margin: 0 264.5px 0 264.5px;
+    padding-top: 345px;
+}
+
+.container-gradient-content_title h2{
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.container-gradient-content_text {
+    width: 640px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.container-gradient-content_button {
+    margin-top: -8px !important; 
+    display: flex;
+    justify-content: center;
+}
